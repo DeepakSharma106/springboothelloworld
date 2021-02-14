@@ -26,7 +26,7 @@ public class HelloWorldSpringBootApplication {
 			return test;
 		}
 
-		@GetMapping(value="/testing")
+		@GetMapping(value="/testing123")
 		public String testing(){
 			System.out.println("this is testing method");
 			return "testing from master";
