@@ -25,5 +25,11 @@ public class HelloWorldSpringBootApplication {
 			System.out.println("this is testing property from application properties file "+test);
 			return test;
 		}
+
+		@GetMapping(value="/testing")
+		public String testing(){
+			System.out.println("this is testing method");
+			return "testing from master";
+		}
 	}
 }
