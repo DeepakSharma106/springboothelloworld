@@ -32,7 +32,7 @@ public class HelloWorldSpringBootApplication {
 			return "testing from master";
 		}
 
-		@GetMapping(value="/testing")
+		@GetMapping(value="/anotherTest")
 		public String anotherTest(){
 			return "this is for testing purpose";
 		}
