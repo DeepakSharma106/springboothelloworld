@@ -31,5 +31,10 @@ public class HelloWorldSpringBootApplication {
 			System.out.println("this is testing method");
 			return "testing from master";
 		}
+
+		@GetMapping(value="/testing")
+		public String anotherTest(){
+			return "this is for testing purpose";
+		}
 	}
 }
