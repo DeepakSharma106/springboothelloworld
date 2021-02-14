@@ -26,7 +26,7 @@ public class HelloWorldSpringBootApplication {
 			return test;
 		}
 
-		@GetMapping(value="/testing")
+		@GetMapping(value="/testing123")
 		public String anotherTest(){
 			return "this is for testing purpose";
 		}
